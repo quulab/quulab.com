@@ -17,7 +17,7 @@ export default function Home() {
   );
 }
 
-export function HomeOld() {
+function HomeOld() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
