@@ -3,6 +3,22 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
+    <div className="root container-fluid h-100">
+      <div className="h-100 d-flex flex-column justify-content-center align-items-center">
+        <Image
+          src="/QuuLab_text.svg"
+          alt="QuuLab"
+          width={320}
+          height={100}
+        />
+        <p className="text-white fs-6">Blockchain | Formal verification | Fuzzing</p>
+      </div>
+    </div>
+  );
+}
+
+export function HomeOld() {
+  return (
     <div className={styles.page}>
       <main className={styles.main}>
         <Image
